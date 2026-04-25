@@ -1,0 +1,6 @@
+{
+  "name": "Pure Math Tutor",
+  "description": "An AI-powered exercise generator for A-Level Pure Mathematics students, drawing questions from the Cambridge coursebook.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
