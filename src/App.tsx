@@ -16,7 +16,8 @@ import {
   RefreshCcw, 
   Sparkles,
   Trophy,
-  History
+  History,
+  Info
 } from 'lucide-react';
 import { Dashboard } from './components/Dashboard';
 import { QuestionCard } from './components/QuestionCard';
@@ -66,7 +67,7 @@ import { generateExercise } from './services/geminiService';
               <Sparkles className="w-6 h-6 text-white" />
             </div>
             <h1 className="text-xl font-black tracking-tighter text-slate-800 uppercase italic">
-              Math<span className="text-indigo-600">Flow</span>
+              Math<span className="text-indigo-600">Prep</span>
             </h1>
           </div>
         </div>
