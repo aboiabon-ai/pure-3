@@ -7,7 +7,7 @@ st.title("🤖 Personal AI Assistant")
 
 # Koneksi ke Gemini API
 # Kita akan mengatur API_KEY di tahap hosting nanti demi keamanan
-api_key = st.secrets["AIzaSyBB1mTAw3WaWSMKFNDyy4-aQgl4qVQJvFw"]
+api_key = st.secrets["GEMINI_API_KEY"]
 genai.configure(api_key=api_key)
 
 # Input System Instruction (Hasil dari NotebookLM/AI Studio Anda)
